@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d9bff7c388.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form >
+            <div class="NameFeilds">
+                <div>
+                    <label for="Name" id="headingtext">Name</label><span class="required-feild">*</span>
+                </div>
+                <div class="names">
+                    <div>
+                        <input type="text" id="headingtext" id="firstname"><br/>
+                        <span>First</span>
+                    </div>
+                    <div>
+                        <input type="text" id="headingtext" id="secondname"><br/>
+                        <span>last</span>
+                    </div>
+                </div>       
+            </div><br/>
+            <div class="emailFeild">
+                <div>
+                    <label for="email" id="headingtext">Email</label><span class="required-feild">*</span><br/>
+                    <input type="email" id="email">
+                </div>
+            </div><br/>
+            <div class="yourExperience">
+                <div>
+                    <div>
+                        <label id="headingtext">Your Experience</label><span class="required-feild">*</span><br/>
+                    </div>
+                    <div>
+                        <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                        </div><br/>
+                    </div><br/><br/>
+                    <div>
+                        <span>Overall. how would you rate your Experience with us?</span>
+                    </div>
+                </div>
+            </div><br/>
+            <div>
+                <div>
+                    <div>
+                        <span><b>How satisfied are you with</b></span><span class="required-feild">*</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <th rowspan="1"></th>
+                            <th>Very Unsatisfied</th>
+                            <th>Unsatisfied</th>
+                            <th>Neutral</th>
+                            <th>satisfied</th>
+                            <th>Very satisfied</th>
+                        </tr>
+                        <tr>
+                            <td>Purchase</td>
+                            <td><input type="radio" name="Purchase" value="Very Unsatisfied"></td>
+                            <td><input type="radio" name="Purchase" value="Unsatisfied"></td>
+                            <td><input type="radio" name="Purchase" value="Neutral"></td>
+                            <td><input type="radio" name="Purchase" value="satisfied"></td>
+                            <td><input type="radio" name="Purchase" value="Very satisfied"></td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td><input type="radio" name="Service" value="Very Unsatisfied"></td>
+                            <td><input type="radio" name="Service" value="Unsatisfied"></td>
+                            <td><input type="radio" name="Service" value="Neutral"></td>
+                            <td><input type="radio" name="Service" value="satisfied"></td>
+                            <td><input type="radio" name="Service" value="Very satisfied"></td>
+                        </tr>
+                        <tr>
+                            <td>Company Overall</td>
+                            <td><input type="radio" name="Company Overall" value="Very Unsatisfied"></td>
+                            <td><input type="radio" name="Company Overall" value="Unsatisfied"></td>
+                            <td><input type="radio" name="Company Overall" value="Neutral"></td>
+                            <td><input type="radio" name="Company Overall" value="satisfied"></td>
+                            <td><input type="radio" name="Company Overall" value="Very satisfied"></td>
+                        </tr>
+                    </table>
+                </div><br/>
+                <div>
+                    <div>
+                        <span><b>How likely are you to</b></span><span class="required-feild">*</span>
+                    </div>
+                    <table>
+                        <tr class="tr">
+                            <th rowspan="1"></th>
+                            <th>Very Unlikely</th>
+                            <th>Unlikely</th>
+                            <th>Neutral</th>
+                            <th>likely</th>
+                            <th>Very likely</th>
+                        </tr>
+                        <tr>
+                            <td>Buy from us again</td>
+                            <td><input type="radio" name="Buy" value="Very Unlikely"></td>
+                            <td><input type="radio" name="Buy" value="Unlikely"></td>
+                            <td><input type="radio" name="Buy" value="Neutral"></td>
+                            <td><input type="radio" name="Buy" value="likely"></td>
+                            <td><input type="radio" name="Buy" value="Very likely"></td>
+                        </tr>
+                        <tr>
+                            <td>Recommend our<br>product to others</td>
+                            <td><input type="radio" name="product" value="Very Unlikely"></td>
+                            <td><input type="radio" name="product" value="Unlikely"></td>
+                            <td><input type="radio" name="product" value="Neutral"></td>
+                            <td><input type="radio" name="product" value="likely"></td>
+                            <td><input type="radio" name="product" value="Very likely"></td>
+                        </tr>
+                        <tr>
+                            <td>Recommend our<br>company to others</td>
+                            <td><input type="radio" name="company" value="Very Unlikely"></td>
+                            <td><input type="radio" name="company" value="Unlikely"></td>
+                            <td><input type="radio" name="company" value="Neutral"></td>
+                            <td><input type="radio" name="company" value="likely"></td>
+                            <td><input type="radio" name="company" value="Very likely"></td>
+                        </tr>
+                    </table>
+                </div><br/>
+                <div>
+                    <div>
+                        <span><b>Additional comments are suggestions</b></span>
+                    </div>
+                    <div>
+                        <textarea rows="6" cols="95" name="comment"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" >
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+  <!-- <span><i class="fa-solid fa-star " style="color: #fea306;"></i></span>
+                        <span><i class="fa-solid fa-star " style="color: #fea306;"></i></span>
+                        <span><i class="fa-solid fa-star " style="color: #fea306;"></i></span>
+                        <span><i class="fa-solid fa-star " style="color: #fea306;"></i></span>
+                        <span><i class="fa-solid fa-star " style="color: #fea306;"></i></span> -->
